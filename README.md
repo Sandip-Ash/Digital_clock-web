@@ -1,6 +1,6 @@
 # ⏰ Digital Clock Web App
 
-A simple, elegant digital clock built using *HTML*, *CSS*, and *JavaScript*. It displays the current time in real-time and features a clean, responsive user interface.
+A simple, elegant digital clock built using *HTML*, *CSS*, and *JavaScript*. It displays the current time in real-time and features a clean, responsive user interface. ( ![Digital Clock](https://sandip-ash.github.io/Digital_clock-web/) )
 
 <br>
 
