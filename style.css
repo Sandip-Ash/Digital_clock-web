@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url("https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwallpaperheart.com%2Fwp-content%2Fuploads%2F2018%2F02%2Fwallpapershd-storm.jpg&f=1&nofb=1&ipt=be9e3f95e27fb4ed775f8cae4ad467c64f89e5843a10d0a9191578c4e4d20353") no-repeat;
+    background-size: cover;
+}
+
+.clock{
+    width: 100%;
+    max-width: 380px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2), 
+    0px 10px 20px rgba(0,0,0,0.9);
+    height: 24vh;
+    border-radius: 12px;
+    padding: 20px;
+}
+
+.clock h1{
+    font-size: 3.5rem;
+    font-weight: 600;
+    color: rgb(249, 85, 3);
+}
+
+.clock span{
+    position: relative;
+    top: -13%;
+    margin-left: 5px;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+}
+
+@media screen and (max-width: 274px){
+    .clock{
+        max-width: 210px;
+        padding: 5px;
+    }
+
+    .clock h1{
+font-size: 1.9rem;
+    }
+}
+
+@media screen and (min-width:274px) and (max-width: 400px){
+    .clock{
+        max-width: 260px;
+        padding: 5px;
+    }
+
+    .clock h1{
+font-size: 2.4rem;
+    }
+}
